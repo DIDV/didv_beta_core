@@ -6,7 +6,7 @@ module DIDVBeta
     def initialize(lines,columns)
       @lines = lines
       @columns = columns
-      @cursor = BrailleBufferCursor.new(lines,columns)
+      @cursor = BrailleBufferCursor.new
       initialize_buffer
     end
 
