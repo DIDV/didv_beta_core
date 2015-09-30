@@ -10,7 +10,7 @@ describe "BrailleBuffer", "new" do
   end
 
   it "should have position cursor at the first cell" do
-    expect(@braille_buffer.cursor.position).to eq [line: 0, column: '0']
+    expect(@braille_buffer.cursor.position).to eq [line: 0, column: 0]
   end
 
 end
