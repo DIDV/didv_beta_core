@@ -8,7 +8,6 @@ end
 describe BrailleBufferCursor, "end_of_text" do
   before(:all) { @cursor = BrailleBufferCursor.new }
   before(:each) { @cursor.end_of_text = [4,4] }
-  
   it "should return end_of_text" do
     expect(@cursor.end_of_text).to eq [4,4]
   end
