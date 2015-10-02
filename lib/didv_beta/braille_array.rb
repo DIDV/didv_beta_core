@@ -1,11 +1,12 @@
 module DIDVBeta
-  class BrailleArray < Array
+  class BrailleArray
 
     attr_accessor :columns
 
-    def initialize
-      super
-      @columns = 1
+    def initialize(columns = 1)
+      @content = []
+      @columns = columns
+      @cursor = BrailleArrayCursor.new(@columns)
     end
 
     def load(content)
@@ -13,9 +14,17 @@ module DIDVBeta
       if content == false
         return false
       else
-        self.concat content.flatten
+        @content.concat content.flatten
         return true
       end
+    end
+
+    def join
+      @content.join
+    end
+
+    def empty?
+      @content.empty?
     end
 
     private

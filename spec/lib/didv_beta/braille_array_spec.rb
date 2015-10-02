@@ -1,7 +1,7 @@
 describe BrailleArray, "new" do
   before(:all) do
-    @braille_array = BrailleArray.new
-    @braille_array.columns = 10
+    @braille_array = BrailleArray.new(10)
+    # @braille_array.columns = 10
   end
 
   it "should return an empty BrailleArray" do
