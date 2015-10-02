@@ -10,7 +10,7 @@ it's an appliance which allows a blind person to read and write texts.
 * the user also can navigate through the appliance options through a control keyboard.
 * didv also allows conversion between non-braille and braille text. it means the user can write text to non-braille readers, and can read non-braille texts in braille format.
 
-didv is a open source / open hardware project, and our purpose is to develop a reliable, autonomous, DIY solution, to widespread culture by an affordable price to people which wouldn't have access to braille material otherwise.
+didv is a open source / open hardware project, and our purpose is to develop a reliable, autonomous, DIY solution, to spread culture by an affordable price to people which wouldn't have access to braille material otherwise.
 
 ## beta
 
